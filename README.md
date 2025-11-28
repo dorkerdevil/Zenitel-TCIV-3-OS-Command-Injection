@@ -100,16 +100,6 @@ Based on analysis, likely vulnerable endpoints include:
 - DNS server configuration
 - Gateway configuration
 
-## 💣 Command Injection Payloads
-
-Common payloads to test:
-- `127.0.0.1; command`
-- `127.0.0.1 && command`
-- `127.0.0.1 | command`
-- `127.0.0.1 || command`
-- `127.0.0.1 $(command)`
-- `127.0.0.1 `command``
-- `127.0.0.1%3Bcommand` (URL encoded)
 
 ## 📚 References
 
